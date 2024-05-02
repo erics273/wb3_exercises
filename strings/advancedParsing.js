@@ -28,7 +28,7 @@ function parseAndDisplayName(name) {
             `
         }else{
 
-            middleName = fullName.substring(firstSpace + 1, lastSpace + 1);
+            middleName = fullName.substring(firstSpace + 1, lastSpace);
             message += `
             First name: ${firstName}
             Middle name: ${middleName}
